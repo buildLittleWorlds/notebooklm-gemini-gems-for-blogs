@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Example: Gems — NotebookLM & Gemini Gems for Blogs</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <div class="container">
+      <p class="site-label">ENGL 170 — AI Tools for Peer Response</p>
+      <h1><a href="index.html">NotebookLM & Gemini Gems for Blogs</a></h1>
+      <nav>
+        <a href="index.html">Start Here</a>
+        <a href="tool-chooser.html">Choose a Tool</a>
+        <a href="templates.html">Templates</a>
+        <a href="glossary.html">Glossary</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+
+    <!-- SLOGAN BANNER -->
+    <div class="slogan-banner">
+      <span class="main-slogan">Save your sources. Own your thinking.</span>
+      <span class="subtext">AI can help you research and draft — but your argument stays yours.</span>
+    </div>
+
+    <!-- PAGE TITLE -->
+    <h1 class="page-title">Example: Gems Workflow</h1>
+
+    <!-- LEAD PARAGRAPH -->
+    <p class="lead">A complete walkthrough using Zay Amaro's "Markets, Metrics, and the Myth of Certainty" — a post that demonstrates structured peer response with personal expertise.</p>
+
+    <h2>The Post We're Learning From</h2>
+
+    <div class="post-excerpt">
+      <div class="excerpt-meta">
+        <strong>Zay Amaro</strong> — "Markets, Metrics, and the Myth of Certainty" — January 26, 2026<br>
+        <a href="https://buildlittleworlds.github.io/engl170-spring2026-dashboard/">View on Dashboard</a>
+      </div>
+      <p>In his post "Trading on Reality with Kalshi," Caleb Murphy explains how prediction markets allow people to trade on the outcome of real-world events. Caleb describes Kalshi as a place where "knowledge is power," and where the collective wisdom of the market creates a price for the future.</p>
+      <p>But as a sports fan, this brings me back to my favorite question: <strong>Can we ever truly trade on the unpredictable?</strong>...</p>
+      <p>In the NFL, the "market" often gets it wrong because it cannot account for the "intentionality" that Gabriel Bell wrote about or the "grit" that Tom Bishop highlighted in boxing. A prediction market might say a team is "dead," but the market doesn't know the character of the locker room...</p>
+    </div>
+
+    <h3>Why This Post Is Perfect for Learning Gems</h3>
+
+    <p>Zay's post demonstrates the exact pattern a Peer Response Coach Gem should produce:</p>
+
+    <ul>
+      <li><strong>Clear peer summary:</strong> Fairly represents Caleb Murphy's argument about prediction markets</li>
+      <li><strong>Personal expertise:</strong> Brings sports analytics knowledge (NFL, Super Bowl comebacks)</li>
+      <li><strong>Network connections:</strong> References Gabriel Bell on "intentionality" and Tom Bishop on "grit"</li>
+      <li><strong>Thesis with evidence:</strong> "Black Swan" events defeat market predictions, with specific example (Super Bowl LI)</li>
+      <li><strong>Consistent voice:</strong> Thoughtful, engaged, integrates faith perspective naturally</li>
+    </ul>
+
+    <h2>Building a Gem That Produces This Style</h2>
+
+    <div class="step-card">
+      <span class="step-number">1</span>
+      <span class="step-title">Analyze What Makes Zay's Post Work</span>
+      <div class="step-content">
+        <p>Before building the Gem, let's identify the structure:</p>
+
+        <table class="tool-table">
+          <thead>
+            <tr>
+              <th>Section</th>
+              <th>What Zay Does</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Opening</td>
+              <td>Summarizes Caleb's argument fairly, then pivots to his own question</td>
+            </tr>
+            <tr>
+              <td>Connection</td>
+              <td>Relates the topic to his domain (sports analytics)</td>
+            </tr>
+            <tr>
+              <td>Analysis</td>
+              <td>Introduces concept ("Black Swan") with specific example (Super Bowl LI)</td>
+            </tr>
+            <tr>
+              <td>Network Weave</td>
+              <td>References other bloggers (Gabriel, Tom, Sam) to build conversation</td>
+            </tr>
+            <tr>
+              <td>Thesis</td>
+              <td>Takes a position: data has a "ceiling," unpredictability has value</td>
+            </tr>
+            <tr>
+              <td>Closing</td>
+              <td>Integrates personal perspective (faith) while affirming peer's contribution</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="step-card">
+      <span class="step-number">2</span>
+      <span class="step-title">Create the Peer Response Coach Gem</span>
+      <div class="step-content">
+        <p>Go to Gemini → Gem manager → New Gem. Name it: <code>Peer Response Coach</code></p>
+
+        <p>Paste these instructions:</p>
+
+        <pre>You are my peer response writing coach for ENGL 170. When I share a peer's post, help me through these steps:
+
+1. SUMMARIZE: State the peer's main argument in 2-3 sentences. Be charitable—represent them fairly, as Zay does with Caleb.
+
+2. STEELMAN: What's the strongest version of their argument? What would make it even more convincing?
+
+3. MY ANGLE: Ask me what domain expertise or personal knowledge I bring (like Zay brings sports knowledge). Help me connect it to their argument.
+
+4. THESIS OPTIONS: Generate 2 possible thesis statements:
+   - One that builds on their argument (agreement with extension)
+   - One that challenges a specific assumption (respectful pushback)
+
+5. NETWORK CONNECTIONS: Suggest ways to reference other bloggers in the network. "Who else has written about similar themes?"
+
+6. EVIDENCE GAPS: What claims would need outside sources? What specific examples (like Zay's Super Bowl reference) would strengthen my argument?
+
+7. OUTLINE: Create a 5-section structure:
+   - Opening (peer summary + my question)
+   - My expertise/angle
+   - Analysis with evidence
+   - Network connections
+   - Thesis and closing
+
+8. DRAFT: Write a ~800 word draft with [CITATION NEEDED] placeholders. Match Zay's tone: thoughtful, engaged, charitable to peers.
+
+9. VERIFICATION: List every factual claim that needs a source.
+
+Tone: Confident but respectful. Charitable to peers. Let personal perspective emerge naturally, not forced.</pre>
+      </div>
+    </div>
+
+    <div class="step-card">
+      <span class="step-number">3</span>
+      <span class="step-title">Start a Conversation</span>
+      <div class="step-content">
+        <p>Open your new Gem and paste the peer post you're responding to:</p>
+
+        <pre>Here's the peer post I'm responding to:
+
+[Paste Caleb's "Trading on Reality with Kalshi" post]</pre>
+
+        <p>The Gem will begin with Step 1: SUMMARIZE.</p>
+      </div>
+    </div>
+
+    <div class="step-card">
+      <span class="step-number">4</span>
+      <span class="step-title">Work Through the Steps</span>
+      <div class="step-content">
+        <p><strong>After the summary, the Gem asks about your angle:</strong></p>
+
+        <pre>Gem: "What domain expertise or personal knowledge do you bring? What's your equivalent of Zay's sports fan perspective?"
+
+You: "I know a lot about gaming — both video games and tabletop RPGs. I'm interested in how randomness works in games versus in real prediction markets."</pre>
+
+        <p><strong>The Gem generates thesis options:</strong></p>
+
+        <blockquote>
+          Option A (Build): Caleb's right that prediction markets aggregate knowledge, but they work better for games with known rules than for real-world events with hidden variables.<br><br>
+          Option B (Challenge): Prediction markets mistake "information aggregation" for "prediction" — the same way video games mistake high-score leaderboards for skill measurement.
+        </blockquote>
+
+        <p><strong>You choose and refine:</strong></p>
+
+        <pre>I like Option B. Can you help me develop the gaming analogy? I'm thinking about RNG (random number generation) in games and how players complain about "unfair" randomness.</pre>
+      </div>
+    </div>
+
+    <div class="step-card">
+      <span class="step-number">5</span>
+      <span class="step-title">Get Network Connection Suggestions</span>
+      <div class="step-content">
+        <p>Ask the Gem to help you connect to other bloggers:</p>
+
+        <pre>Who else in the network has written about prediction, randomness, or uncertainty?</pre>
+
+        <p>The Gem might not know your specific classmates, but it will prompt you:</p>
+
+        <blockquote>
+          I don't have access to your class dashboard, but think about:<br><br>
+          - Who has written about AI prediction or automation?<br>
+          - Who has discussed the limits of data-driven decision-making?<br>
+          - Who has a contrasting view you could engage with?<br><br>
+          Check the dashboard and let me know who you'd like to reference.
+        </blockquote>
+
+        <pre>Gabriel Bell wrote about the "Consumption Paradox" and how predictions about AI abundance might be wrong. Tom Bishop wrote about boxing and how stats can't capture "heart."</pre>
+      </div>
+    </div>
+
+    <div class="step-card">
+      <span class="step-number">6</span>
+      <span class="step-title">Generate the Draft</span>
+      <div class="step-content">
+        <p>Ask for the draft:</p>
+
+        <pre>Generate a draft using Thesis Option B, my gaming angle, and references to Gabriel and Tom.</pre>
+
+        <p>The Gem produces ~800 words with your structure. Sections will include:</p>
+        <ul>
+          <li>Fair summary of Caleb's prediction markets argument</li>
+          <li>Your gaming expertise introduction</li>
+          <li>RNG analysis with specific examples</li>
+          <li>Connections to Gabriel's and Tom's posts</li>
+          <li>Your thesis about the limits of prediction</li>
+        </ul>
+
+        <p>Look for <code>[CITATION NEEDED]</code> placeholders marking claims that need sources.</p>
+      </div>
+    </div>
+
+    <div class="step-card">
+      <span class="step-number">7</span>
+      <span class="step-title">Request Verification List</span>
+      <div class="step-content">
+        <pre>What claims in this draft need verification?</pre>
+
+        <p><strong>Sample response:</strong></p>
+
+        <blockquote>
+          Claims needing verification:<br><br>
+          1. Any statistics about prediction market accuracy<br>
+          2. Specific game titles and their RNG systems (if you named them)<br>
+          3. The claim about Kalshi's limitations<br>
+          4. Any quotes attributed to Gabriel or Tom<br><br>
+          Before publishing, verify these against the original sources.
+        </blockquote>
+      </div>
+    </div>
+
+    <div class="step-card">
+      <span class="step-number">8</span>
+      <span class="step-title">Export and Revise</span>
+      <div class="step-content">
+        <p>Copy the draft to Google Docs. Your revision checklist:</p>
+
+        <ul class="checklist">
+          <li>Replace all [CITATION NEEDED] with actual sources</li>
+          <li>Check that quotes from Gabriel and Tom are accurate</li>
+          <li>Adjust voice to sound like you (not like "generic AI")</li>
+          <li>Add transitions that feel natural</li>
+          <li>Cut anything that feels forced or off-topic</li>
+        </ul>
+      </div>
+    </div>
+
+    <h2>What the Gem Gave You</h2>
+
+    <p>At the end of this workflow, you have:</p>
+
+    <ul>
+      <li>A fair summary of your peer's argument</li>
+      <li>A clear thesis connected to your personal expertise</li>
+      <li>A structured draft with network connections</li>
+      <li>A verification checklist before publishing</li>
+    </ul>
+
+    <h2>What the Gem Didn't Give You</h2>
+
+    <p>The Gem cannot:</p>
+
+    <ul>
+      <li>Verify that quotes are accurate (you must check)</li>
+      <li>Know what other classmates have written (you tell it)</li>
+      <li>Make your argument for you (you choose the thesis)</li>
+      <li>Write in your voice (you revise for authenticity)</li>
+    </ul>
+
+    <div class="callout warning">
+      <p><strong>The draft is a starting point.</strong> Zay's actual post has his distinctive voice — the faith references, the sports enthusiasm, the specific Super Bowl moment. The Gem gets you to structure; you bring it to life.</p>
+    </div>
+
+    <h2>Customizing for Your Style</h2>
+
+    <p>If your posts tend to be different from Zay's, modify the Gem instructions:</p>
+
+    <h3>If you're more academic:</h3>
+    <pre>Tone: Formal, analytical. Use precise language. Avoid first-person anecdotes.</pre>
+
+    <h3>If you're more personal:</h3>
+    <pre>Tone: Conversational and personal. Lead with my own experience before engaging the peer's argument.</pre>
+
+    <h3>If you want shorter posts:</h3>
+    <pre>8. DRAFT: Write a ~600 word draft...</pre>
+
+    <!-- DIVIDER -->
+    <div class="divider"></div>
+
+    <!-- PAGE NAVIGATION -->
+    <nav class="page-nav">
+      <a href="example-notebooklm.html" class="prev">Example: NotebookLM</a>
+      <a href="example-combined.html" class="next">Example: Combined</a>
+    </nav>
+
+    <!-- BOTTOM SITE NAVIGATION -->
+    <nav class="site-nav-bottom">
+      <h3>All Pages</h3>
+      <ul>
+        <li><a href="index.html">Start Here</a></li>
+        <li><a href="tool-chooser.html">Choose a Tool</a></li>
+        <li><a href="notebooklm-workflow.html">NotebookLM Workflow</a></li>
+        <li><a href="gems-workflow.html">Gems Workflow</a></li>
+        <li><a href="combined-workflow.html">Combined Workflow</a></li>
+        <li><a href="example-notebooklm.html">Example: NotebookLM</a></li>
+        <li><a href="example-gems.html" class="current">Example: Gems</a></li>
+        <li><a href="example-combined.html">Example: Combined</a></li>
+        <li><a href="templates.html">Templates</a></li>
+        <li><a href="verification.html">Verification</a></li>
+        <li><a href="glossary.html">Glossary</a></li>
+        <li><a href="troubleshooting.html">Troubleshooting</a></li>
+      </ul>
+    </nav>
+
+  </main>
+
+  <footer>
+    <p>ENGL 170 — Spring 2026 — <a href="https://buildlittleworlds.github.io/engl170-spring2026-dashboard/">Dashboard</a> — <a href="https://buildlittleworlds.github.io/plate-composition-blog/">Dr. Plate's Blog</a></p>
+  </footer>
+
+</body>
+</html>

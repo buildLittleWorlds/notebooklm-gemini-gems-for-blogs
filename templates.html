@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Templates — NotebookLM & Gemini Gems for Blogs</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <div class="container">
+      <p class="site-label">ENGL 170 — AI Tools for Peer Response</p>
+      <h1><a href="index.html">NotebookLM & Gemini Gems for Blogs</a></h1>
+      <nav>
+        <a href="index.html">Start Here</a>
+        <a href="tool-chooser.html">Choose a Tool</a>
+        <a href="templates.html" class="current">Templates</a>
+        <a href="glossary.html">Glossary</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+
+    <!-- SLOGAN BANNER -->
+    <div class="slogan-banner">
+      <span class="main-slogan">Save your sources. Own your thinking.</span>
+      <span class="subtext">AI can help you research and draft — but your argument stays yours.</span>
+    </div>
+
+    <!-- PAGE TITLE -->
+    <h1 class="page-title">Templates</h1>
+
+    <!-- LEAD PARAGRAPH -->
+    <p class="lead">Copy/paste prompts for NotebookLM, Gem instruction sets, and checklists you can use every time.</p>
+
+    <h2>Gem Instruction Sets</h2>
+
+    <p>Copy these instruction sets when creating new Gems in Gemini.</p>
+
+    <h3>Peer Response Coach (Full Workflow)</h3>
+
+    <pre>You are my peer response writing coach for ENGL 170. When I share a peer's post, help me through these steps:
+
+1. SUMMARIZE: State the peer's main argument in 2-3 sentences. Be charitable—represent them fairly.
+
+2. STEELMAN: What's the strongest version of their argument? What would make it even more convincing?
+
+3. MY ANGLE: Ask me what domain expertise or personal knowledge I bring. Help me connect it to their argument.
+
+4. THESIS OPTIONS: Generate 2 possible thesis statements—one that builds on their argument, one that challenges it.
+
+5. EVIDENCE GAPS: What claims in my response would need outside sources? List them.
+
+6. OUTLINE: Create a 4-section outline: Hook → Peer Summary → My Argument → Conclusion
+
+7. DRAFT: Write a ~800 word draft with [CITATION NEEDED] placeholders where I need to verify claims.
+
+8. VERIFICATION: List every factual claim in the draft that needs a source.
+
+Tone: Thoughtful, engaged, charitable to peers, confident in my own voice.</pre>
+
+    <h3>Argument Sharpener</h3>
+
+    <pre>You are my argument review assistant for ENGL 170 blog posts. When I share a draft, help me strengthen it:
+
+1. THESIS CHECK: Is my thesis clear and defensible? If not, suggest refinements.
+
+2. PEER FAIRNESS: Did I represent my peer's argument charitably? Point out any strawmanning.
+
+3. EVIDENCE AUDIT: For each claim I make, is there evidence? Mark unsupported claims.
+
+4. COUNTERARGUMENT: What's the strongest objection to my thesis? Have I addressed it?
+
+5. STRUCTURE: Does the post flow logically? Suggest reordering if needed.
+
+6. VOICE CHECK: Does this sound like a real person with opinions, or generic AI prose? Flag robotic sections.
+
+Be direct. Don't soften criticism. I want honest feedback.</pre>
+
+    <h3>Source Verification Assistant</h3>
+
+    <pre>You are my fact-checking assistant for ENGL 170 blog posts. When I share a draft:
+
+1. LIST all factual claims (statistics, quotes, historical events, research findings).
+
+2. For each claim, note:
+   - Is a source provided? (Yes/No)
+   - If yes, can the source be verified?
+   - If no, mark as [NEEDS SOURCE]
+
+3. FLAG any claims that sound suspiciously specific but lack citation.
+
+4. SUGGEST where I might find verification (specific search queries, types of sources).
+
+5. WARN me about common AI hallucination patterns (fake studies, misattributed quotes, invented statistics).
+
+Be thorough. Better to over-flag than miss something.</pre>
+
+    <h3>Voice Editor</h3>
+
+    <pre>You are my voice editor for ENGL 170 blog posts. My writing voice is:
+- [Describe your voice: e.g., "conversational but precise, uses sports metaphors, occasionally sarcastic"]
+- [Add specific traits: e.g., "I use 'I think' rather than 'one might argue'"]
+- [Note what to avoid: e.g., "No corporate jargon, no overly academic phrasing"]
+
+When I share a draft:
+1. Identify sections that don't sound like me
+2. Suggest revisions that match my voice
+3. Keep the content; change only the phrasing
+4. Preserve my argument structure
+
+Don't make it generic. Make it sound like ME.</pre>
+
+    <h2>NotebookLM Question Prompts</h2>
+
+    <p>Copy these prompts when working in NotebookLM.</p>
+
+    <h3>Understanding a Peer's Argument</h3>
+
+    <pre>What are [peer name]'s three main claims? Quote the relevant passages.</pre>
+
+    <pre>What sources does this post cite? List each one with the specific claim it supports.</pre>
+
+    <pre>What assumptions does this argument depend on? What would need to be true for their conclusion to follow?</pre>
+
+    <pre>What's the strongest version of this argument? (Steelman it.)</pre>
+
+    <pre>Where is this argument weakest? What counterevidence would challenge it?</pre>
+
+    <h3>Verification Questions</h3>
+
+    <pre>Does [source name] actually say [specific claim]? Quote the relevant passage if available.</pre>
+
+    <pre>What does "exposed to AI" mean in the IMF report? Is it the same as "will be eliminated"?</pre>
+
+    <pre>What counterarguments exist to [thesis]? What do my sources say that challenges this view?</pre>
+
+    <pre>Where do my sources agree? Where do they disagree?</pre>
+
+    <h3>Building Your Response</h3>
+
+    <pre>Based on my sources, what's the strongest argument that [peer]'s thesis is correct?</pre>
+
+    <pre>Based on my sources, what's the strongest argument that [peer]'s thesis is flawed?</pre>
+
+    <pre>What evidence from my sources could I use to extend [peer]'s argument further?</pre>
+
+    <pre>Give me 2 possible thesis statements for my response — one that agrees with [peer] and extends the argument, one that challenges a specific assumption.</pre>
+
+    <h3>Drafting in NotebookLM</h3>
+
+    <pre>Based on my sources, help me draft an 800-word response that:
+1. Summarizes [peer]'s argument fairly (2-3 sentences)
+2. Presents my thesis: [your thesis here]
+3. Uses evidence from my sources with citations
+4. Addresses the strongest counterargument
+5. Marks any claims that need additional verification with [VERIFY]</pre>
+
+    <h2>Checklists</h2>
+
+    <h3>Before You Publish Checklist</h3>
+
+    <ul class="checklist">
+      <li>Post is 750-1500 words</li>
+      <li>Links to at least one peer post in the network</li>
+      <li>Has at least one outside source</li>
+      <li>Clear thesis appears in first two paragraphs</li>
+      <li>Peer's argument is represented fairly</li>
+      <li>All factual claims have sources (or are marked as opinion)</li>
+      <li>I've read the sources I cite (not just AI summaries)</li>
+      <li>Date is formatted correctly</li>
+      <li>Post title is clear and engaging</li>
+    </ul>
+
+    <h3>Source Verification Checklist</h3>
+
+    <ul class="checklist">
+      <li>Every statistic has a named source</li>
+      <li>Quotes are accurate (check original)</li>
+      <li>Source actually says what I claim it says</li>
+      <li>Source is credible (academic, reputable news, official report)</li>
+      <li>I can find the source online (it's not hallucinated)</li>
+      <li>Publication date is recent enough to be relevant</li>
+    </ul>
+
+    <h3>AI Assistance Audit</h3>
+
+    <ul class="checklist">
+      <li>The thesis is my position, not a summary of "both sides"</li>
+      <li>I chose which argument to make (AI gave options, I decided)</li>
+      <li>The voice sounds like me, not generic AI</li>
+      <li>I can defend every claim if asked</li>
+      <li>I know what my sources actually say (not just what AI summarized)</li>
+      <li>The structure serves my argument (not a template I blindly followed)</li>
+    </ul>
+
+    <h2>Naming Conventions</h2>
+
+    <h3>NotebookLM Notebooks</h3>
+    <pre>Peer Response – [Peer Name] – [Topic] – Week X</pre>
+    <p>Examples:</p>
+    <ul>
+      <li><code>Peer Response – Gabriel Bell – AI Scarcity – Week 3</code></li>
+      <li><code>Peer Response – Caleb Murphy – Prediction Markets – Week 4</code></li>
+      <li><code>Research – Scholarly Sources – Portfolio – Final</code></li>
+    </ul>
+
+    <h3>Notes in NotebookLM</h3>
+    <ul>
+      <li><code>[Peer]'s Main Claims</code></li>
+      <li><code>[Source Name] – Key Findings</code></li>
+      <li><code>My Thesis Development</code></li>
+      <li><code>Counterarguments from Sources</code></li>
+      <li><code>Verification Questions</code></li>
+    </ul>
+
+    <h3>Gems</h3>
+    <ul>
+      <li><code>Peer Response Coach</code> — Full drafting workflow</li>
+      <li><code>Argument Sharpener</code> — Draft review</li>
+      <li><code>Source Verifier</code> — Fact-checking</li>
+      <li><code>Voice Editor</code> — Style consistency</li>
+    </ul>
+
+    <h2>Quick Reference Card</h2>
+
+    <table class="tool-table">
+      <thead>
+        <tr>
+          <th>Task</th>
+          <th>Tool</th>
+          <th>First Prompt</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Understand peer's argument</td>
+          <td>NotebookLM</td>
+          <td>"What are [peer]'s three main claims? Quote the passages."</td>
+        </tr>
+        <tr>
+          <td>Find sources</td>
+          <td>NotebookLM</td>
+          <td>Discover Sources → [topic query]</td>
+        </tr>
+        <tr>
+          <td>Verify a statistic</td>
+          <td>NotebookLM</td>
+          <td>"Does [source] actually say [claim]? Quote it."</td>
+        </tr>
+        <tr>
+          <td>Generate outline</td>
+          <td>Gems</td>
+          <td>Peer Response Coach → share peer post → request outline</td>
+        </tr>
+        <tr>
+          <td>Draft post</td>
+          <td>Gems</td>
+          <td>"Generate a draft using [thesis] and the outline we created"</td>
+        </tr>
+        <tr>
+          <td>Review draft</td>
+          <td>Gems</td>
+          <td>Argument Sharpener → share draft</td>
+        </tr>
+        <tr>
+          <td>Check facts</td>
+          <td>Gems</td>
+          <td>Source Verifier → share draft</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <!-- DIVIDER -->
+    <div class="divider"></div>
+
+    <!-- PAGE NAVIGATION -->
+    <nav class="page-nav">
+      <a href="example-combined.html" class="prev">Example: Combined</a>
+      <a href="verification.html" class="next">Verification</a>
+    </nav>
+
+    <!-- BOTTOM SITE NAVIGATION -->
+    <nav class="site-nav-bottom">
+      <h3>All Pages</h3>
+      <ul>
+        <li><a href="index.html">Start Here</a></li>
+        <li><a href="tool-chooser.html">Choose a Tool</a></li>
+        <li><a href="notebooklm-workflow.html">NotebookLM Workflow</a></li>
+        <li><a href="gems-workflow.html">Gems Workflow</a></li>
+        <li><a href="combined-workflow.html">Combined Workflow</a></li>
+        <li><a href="example-notebooklm.html">Example: NotebookLM</a></li>
+        <li><a href="example-gems.html">Example: Gems</a></li>
+        <li><a href="example-combined.html">Example: Combined</a></li>
+        <li><a href="templates.html" class="current">Templates</a></li>
+        <li><a href="verification.html">Verification</a></li>
+        <li><a href="glossary.html">Glossary</a></li>
+        <li><a href="troubleshooting.html">Troubleshooting</a></li>
+      </ul>
+    </nav>
+
+  </main>
+
+  <footer>
+    <p>ENGL 170 — Spring 2026 — <a href="https://buildlittleworlds.github.io/engl170-spring2026-dashboard/">Dashboard</a> — <a href="https://buildlittleworlds.github.io/plate-composition-blog/">Dr. Plate's Blog</a></p>
+  </footer>
+
+</body>
+</html>

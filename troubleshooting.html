@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Troubleshooting — NotebookLM & Gemini Gems for Blogs</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <div class="container">
+      <p class="site-label">ENGL 170 — AI Tools for Peer Response</p>
+      <h1><a href="index.html">NotebookLM & Gemini Gems for Blogs</a></h1>
+      <nav>
+        <a href="index.html">Start Here</a>
+        <a href="tool-chooser.html">Choose a Tool</a>
+        <a href="templates.html">Templates</a>
+        <a href="glossary.html">Glossary</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+
+    <!-- SLOGAN BANNER -->
+    <div class="slogan-banner">
+      <span class="main-slogan">Save your sources. Own your thinking.</span>
+      <span class="subtext">AI can help you research and draft — but your argument stays yours.</span>
+    </div>
+
+    <!-- PAGE TITLE -->
+    <h1 class="page-title">Troubleshooting</h1>
+
+    <!-- LEAD PARAGRAPH -->
+    <p class="lead">Common problems and how to fix them.</p>
+
+    <h2>NotebookLM Problems</h2>
+
+    <h3>"I can't add a source"</h3>
+
+    <table class="tool-table">
+      <thead>
+        <tr>
+          <th>Symptom</th>
+          <th>Solution</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>URL won't add</td>
+          <td>Some sites block AI tools. Try copying the text and adding it as "Copied text" instead of a URL.</td>
+        </tr>
+        <tr>
+          <td>File won't upload</td>
+          <td>Check the file type. NotebookLM accepts PDFs, Google Docs, and plain text. Convert other formats first.</td>
+        </tr>
+        <tr>
+          <td>"Source too long"</td>
+          <td>Split the document into smaller sections and add them as separate sources.</td>
+        </tr>
+        <tr>
+          <td>Peer's blog post won't add</td>
+          <td>GitHub Pages blogs sometimes have issues. Copy the post text directly and paste it as "Copied text."</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h3>"NotebookLM's answers seem off"</h3>
+
+    <table class="tool-table">
+      <thead>
+        <tr>
+          <th>Symptom</th>
+          <th>Solution</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Answers don't cite sources</td>
+          <td>Make sure you're asking about topics covered in your sources. If you ask about something not in your sources, it can't ground the answer.</td>
+        </tr>
+        <tr>
+          <td>Wrong source cited</td>
+          <td>Click the citation number to check. If it's wrong, ask a more specific question that points to the source you want.</td>
+        </tr>
+        <tr>
+          <td>Ignoring some sources</td>
+          <td>You might have too many sources. NotebookLM prioritizes some over others. Try asking specifically about the source being ignored.</td>
+        </tr>
+        <tr>
+          <td>Misinterpreting my source</td>
+          <td>Ask a follow-up: "Quote the exact passage you're basing this on." Then check if the interpretation is fair.</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h3>"Discover Sources isn't finding good results"</h3>
+
+    <table class="tool-table">
+      <thead>
+        <tr>
+          <th>Symptom</th>
+          <th>Solution</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Results are low quality</td>
+          <td>Be more specific in your query. Instead of "AI jobs," try "IMF report 2024 AI job displacement statistics."</td>
+        </tr>
+        <tr>
+          <td>Can't find a specific source</td>
+          <td>Use regular Google search to find the source, then add it manually via URL or copied text.</td>
+        </tr>
+        <tr>
+          <td>Results are paywalled</td>
+          <td>Look for free summaries, press releases, or academic preprints. Try adding "PDF" or "free access" to your search.</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h2>Gemini Gems Problems</h2>
+
+    <h3>"My Gem isn't following instructions"</h3>
+
+    <table class="tool-table">
+      <thead>
+        <tr>
+          <th>Symptom</th>
+          <th>Solution</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Skipping steps</td>
+          <td>Number your steps explicitly (1, 2, 3...) and ask "Let's go through step by step" when you start.</td>
+        </tr>
+        <tr>
+          <td>Wrong tone</td>
+          <td>Add more specific tone instructions. Instead of "be professional," try "be direct and concise, avoid jargon."</td>
+        </tr>
+        <tr>
+          <td>Not using my format</td>
+          <td>Include a sample output in your instructions: "Format your response like this: [example]"</td>
+        </tr>
+        <tr>
+          <td>Ignoring placeholders</td>
+          <td>Be explicit: "When you write the draft, mark every factual claim with [CITATION NEEDED] in brackets."</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h3>"I can't create a Gem"</h3>
+
+    <table class="tool-table">
+      <thead>
+        <tr>
+          <th>Symptom</th>
+          <th>Solution</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Don't see "Gem manager"</td>
+          <td>Make sure you're using Gemini (gemini.google.com), not Google Search AI. Gems are in the left sidebar.</td>
+        </tr>
+        <tr>
+          <td>Gem won't save</td>
+          <td>Check that you've filled in both the name and instructions. Try a shorter instruction set to test.</td>
+        </tr>
+        <tr>
+          <td>Feature not available</td>
+          <td>Gems may require a Google Workspace or Google One subscription. Check your account type.</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h3>"I can't attach my NotebookLM notebook"</h3>
+
+    <table class="tool-table">
+      <thead>
+        <tr>
+          <th>Symptom</th>
+          <th>Solution</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>No attachment option</td>
+          <td>This feature requires Google One AI Premium. If you don't have it, use the manual transfer method described in the Combined Workflow page.</td>
+        </tr>
+        <tr>
+          <td>Notebook doesn't appear</td>
+          <td>Make sure the notebook is in the same Google account as your Gemini. Check that the notebook is saved (not just open).</td>
+        </tr>
+        <tr>
+          <td>Attachment fails</td>
+          <td>Try closing and reopening Gemini. If it persists, use manual copy/paste as a workaround.</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h2>Output Quality Problems</h2>
+
+    <h3>"The draft sounds too generic"</h3>
+
+    <p><strong>Problem:</strong> AI-generated drafts often sound the same — proper but bland.</p>
+
+    <p><strong>Solutions:</strong></p>
+    <ul>
+      <li><strong>Add voice instructions:</strong> In your Gem, describe your actual writing voice. "I use contractions. I sometimes start sentences with 'But' or 'And.' I'm slightly sarcastic."</li>
+      <li><strong>Use your own opening:</strong> Write the first paragraph yourself, then ask AI to continue matching that style.</li>
+      <li><strong>Request specifics:</strong> "Give me three different ways to phrase this opening, from most formal to most conversational."</li>
+      <li><strong>Plan to revise:</strong> Treat the draft as raw material, not final product. Read it aloud and change anything that doesn't sound like you.</li>
+    </ul>
+
+    <h3>"The summary misrepresents my peer"</h3>
+
+    <p><strong>Problem:</strong> AI summaries sometimes miss nuance or accidentally strawman.</p>
+
+    <p><strong>Solutions:</strong></p>
+    <ul>
+      <li><strong>Ask for quotes:</strong> "Summarize their argument using their own words. Quote at least two key phrases."</li>
+      <li><strong>Request steelman:</strong> "Give me the most charitable interpretation of their argument."</li>
+      <li><strong>Check against the source:</strong> Read the AI summary, then re-read the peer post. Would your peer agree with how they're represented?</li>
+      <li><strong>Ask your peer (if possible):</strong> "Does this fairly capture what you were saying?"</li>
+    </ul>
+
+    <h3>"I can't tell what's verified and what's not"</h3>
+
+    <p><strong>Problem:</strong> Draft mixes sourced claims with AI-generated claims.</p>
+
+    <p><strong>Solutions:</strong></p>
+    <ul>
+      <li><strong>Use placeholders from the start:</strong> Tell your Gem: "Mark every factual claim with [VERIFY] until I confirm it."</li>
+      <li><strong>Color-code your draft:</strong> In Google Docs, highlight everything you haven't personally verified. Don't publish until all highlights are removed.</li>
+      <li><strong>Keep a verification log:</strong> For each claim, note: source, whether you checked it, what you found.</li>
+    </ul>
+
+    <h2>Workflow Problems</h2>
+
+    <h3>"This is taking longer than just writing myself"</h3>
+
+    <p><strong>Problem:</strong> Learning new tools has a startup cost.</p>
+
+    <p><strong>Reframe:</strong></p>
+    <ul>
+      <li>The first post with these tools will be slow. By the third or fourth, you'll have reusable notebooks and Gems.</li>
+      <li>The time you spend now on verification saves you from embarrassing errors later.</li>
+      <li>If a particular workflow isn't helping, simplify. Use only the parts that add value.</li>
+    </ul>
+
+    <p><strong>Minimal viable workflow:</strong> If the full process is overwhelming, try just NotebookLM for research OR just a Gem for outlining — not both. Add complexity as you get comfortable.</p>
+
+    <h3>"I'm not sure if I'm using AI ethically"</h3>
+
+    <p><strong>The key questions:</strong></p>
+    <ul>
+      <li><strong>Is the thesis mine?</strong> Did I choose what to argue, or did I just accept AI's suggestion?</li>
+      <li><strong>Can I defend every claim?</strong> If asked about any part of the post, can I explain it?</li>
+      <li><strong>Did I verify?</strong> Is everything sourced and checked?</li>
+      <li><strong>Does it sound like me?</strong> Would friends recognize my voice?</li>
+    </ul>
+
+    <p>If you can answer "yes" to all four, you're using AI as a tool, not a replacement for your thinking.</p>
+
+    <h2>Getting Help</h2>
+
+    <h3>For tool-specific issues:</h3>
+    <ul>
+      <li><strong>NotebookLM:</strong> <a href="https://support.google.com/notebooklm">Google NotebookLM Help</a></li>
+      <li><strong>Gemini:</strong> <a href="https://support.google.com/gemini">Google Gemini Help</a></li>
+    </ul>
+
+    <h3>For course-related questions:</h3>
+    <p>Email Dr. Plate or bring questions to class. Technical problems with AI tools are a normal part of learning — you won't be penalized for asking.</p>
+
+    <div class="callout insight">
+      <p><strong>Remember the slogan:</strong> If it breaks, breathe. Then try again. These tools are meant to help, not frustrate. If something isn't working, simplify or try a different approach.</p>
+    </div>
+
+    <!-- DIVIDER -->
+    <div class="divider"></div>
+
+    <!-- PAGE NAVIGATION -->
+    <nav class="page-nav">
+      <a href="glossary.html" class="prev">Glossary</a>
+      <span></span>
+    </nav>
+
+    <!-- BOTTOM SITE NAVIGATION -->
+    <nav class="site-nav-bottom">
+      <h3>All Pages</h3>
+      <ul>
+        <li><a href="index.html">Start Here</a></li>
+        <li><a href="tool-chooser.html">Choose a Tool</a></li>
+        <li><a href="notebooklm-workflow.html">NotebookLM Workflow</a></li>
+        <li><a href="gems-workflow.html">Gems Workflow</a></li>
+        <li><a href="combined-workflow.html">Combined Workflow</a></li>
+        <li><a href="example-notebooklm.html">Example: NotebookLM</a></li>
+        <li><a href="example-gems.html">Example: Gems</a></li>
+        <li><a href="example-combined.html">Example: Combined</a></li>
+        <li><a href="templates.html">Templates</a></li>
+        <li><a href="verification.html">Verification</a></li>
+        <li><a href="glossary.html">Glossary</a></li>
+        <li><a href="troubleshooting.html" class="current">Troubleshooting</a></li>
+      </ul>
+    </nav>
+
+  </main>
+
+  <footer>
+    <p>ENGL 170 — Spring 2026 — <a href="https://buildlittleworlds.github.io/engl170-spring2026-dashboard/">Dashboard</a> — <a href="https://buildlittleworlds.github.io/plate-composition-blog/">Dr. Plate's Blog</a></p>
+  </footer>
+
+</body>
+</html>

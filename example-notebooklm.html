@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Example: NotebookLM — NotebookLM & Gemini Gems for Blogs</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <div class="container">
+      <p class="site-label">ENGL 170 — AI Tools for Peer Response</p>
+      <h1><a href="index.html">NotebookLM & Gemini Gems for Blogs</a></h1>
+      <nav>
+        <a href="index.html">Start Here</a>
+        <a href="tool-chooser.html">Choose a Tool</a>
+        <a href="templates.html">Templates</a>
+        <a href="glossary.html">Glossary</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+
+    <!-- SLOGAN BANNER -->
+    <div class="slogan-banner">
+      <span class="main-slogan">Save your sources. Own your thinking.</span>
+      <span class="subtext">AI can help you research and draft — but your argument stays yours.</span>
+    </div>
+
+    <!-- PAGE TITLE -->
+    <h1 class="page-title">Example: NotebookLM Workflow</h1>
+
+    <!-- LEAD PARAGRAPH -->
+    <p class="lead">A complete walkthrough using Gabriel Bell's "The Silicon Mirage" — a post rich with citations that's perfect for source-grounded research.</p>
+
+    <h2>The Post We're Responding To</h2>
+
+    <div class="post-excerpt">
+      <div class="excerpt-meta">
+        <strong>Gabriel Bell</strong> — "The Silicon Mirage: Why AI Abundance May Be Our Newest Form of Scarcity" — January 25, 2026<br>
+        <a href="https://buildlittleworlds.github.io/engl170-spring2026-dashboard/">View on Dashboard</a>
+      </div>
+      <p>In his recent post, "The Silicon Equalizer," Dominic Debro paints a compelling, almost hypnotic portrait of a future where artificial intelligence acts as the ultimate democratic force. In Dominic's view, AI is the great leveller—a tool that collapses the cost of intelligence, decentralizes expertise, and ushers in a post-scarcity era.</p>
+      <p>However, I believe it overlooks a fundamental law of our current economic and social reality: <strong>the Consumption Paradox</strong>. My argument is that AI will not usher in an era of abundance, but is far more likely to engineer a new era of scarcity...</p>
+    </div>
+
+    <h3>Why This Post Is Perfect for NotebookLM</h3>
+
+    <ul>
+      <li><strong>Multiple specific citations:</strong> IMF report (40% jobs exposed), Brookings Institution, MIT Initiative on the Digital Economy, MPRA paper</li>
+      <li><strong>Verifiable economic claims:</strong> Statistics that can be checked against original sources</li>
+      <li><strong>Responds to another peer:</strong> Dominic Debro's "The Silicon Equalizer" — context we can add</li>
+      <li><strong>Clear thesis to engage with:</strong> The "Consumption Paradox" — AI dismantles wages, breaking capitalism's feedback loop</li>
+    </ul>
+
+    <h2>Step-by-Step Walkthrough</h2>
+
+    <div class="step-card">
+      <span class="step-number">1</span>
+      <span class="step-title">Create the Notebook</span>
+      <div class="step-content">
+        <p>Go to <a href="https://notebooklm.google.com">notebooklm.google.com</a> and create a new notebook.</p>
+        <p><strong>Name it:</strong> <code>Peer Response – Gabriel Bell – AI Scarcity – Week 3</code></p>
+      </div>
+    </div>
+
+    <div class="step-card">
+      <span class="step-number">2</span>
+      <span class="step-title">Add Gabriel's Post as First Source</span>
+      <div class="step-content">
+        <p>Click "Add Source" → "Copied text" and paste Gabriel's full post.</p>
+        <p>This becomes Source 1 — the primary argument we're engaging with.</p>
+      </div>
+    </div>
+
+    <div class="step-card">
+      <span class="step-number">3</span>
+      <span class="step-title">Add the Context Post</span>
+      <div class="step-content">
+        <p>Gabriel is responding to Dominic Debro's "The Silicon Equalizer." Find that post on the dashboard and add it as Source 2.</p>
+        <p>Now NotebookLM understands the full conversation: Dominic's techno-optimism vs. Gabriel's critique.</p>
+      </div>
+    </div>
+
+    <div class="step-card">
+      <span class="step-number">4</span>
+      <span class="step-title">Ask Questions to Extract Claims</span>
+      <div class="step-content">
+        <p>Start asking NotebookLM questions about Gabriel's argument:</p>
+
+        <pre>What are Gabriel's three main claims? Quote the relevant passages.</pre>
+
+        <p><strong>Sample response from NotebookLM:</strong></p>
+        <blockquote>
+          Gabriel makes three central claims:<br><br>
+          1. <strong>The Consumption Paradox:</strong> "If you remove the worker, you break the loop" — AI dismantles the wage mechanism that allows people to participate in capitalism.<br><br>
+          2. <strong>Centralized ownership:</strong> "Wealth in the age of AI is not determined by who can use the tool, but by who owns the infrastructure."<br><br>
+          3. <strong>Labor displacement without adaptation:</strong> "millions of others lack the 'adaptive capacity' to manage such a transition."
+          <cite>— Citations from Source 1</cite>
+        </blockquote>
+
+        <p>Notice how the answers cite specific passages from your source.</p>
+      </div>
+    </div>
+
+    <div class="step-card">
+      <span class="step-number">5</span>
+      <span class="step-title">Extract the Sources Gabriel Cites</span>
+      <div class="step-content">
+        <p>Ask NotebookLM to list Gabriel's sources:</p>
+
+        <pre>What sources does Gabriel cite? List each one with the specific claim it supports.</pre>
+
+        <p><strong>Sample response:</strong></p>
+        <blockquote>
+          Gabriel cites four main sources:<br><br>
+          1. <strong>IMF 2024 report:</strong> "nearly 40 percent of global jobs are exposed to AI, with that number rising to 60 percent in advanced economies"<br><br>
+          2. <strong>Brookings Institution:</strong> "millions of others lack the 'adaptive capacity' to manage such a transition"<br><br>
+          3. <strong>MIT Initiative on the Digital Economy:</strong> "wealth generated tends to cluster around 'superstar' firms"<br><br>
+          4. <strong>MPRA paper:</strong> "the abundance of machine intelligence actually devalues human cognitive labor"
+        </blockquote>
+
+        <p>Now you know exactly which claims you can verify or challenge with outside research.</p>
+      </div>
+    </div>
+
+    <div class="step-card">
+      <span class="step-number">6</span>
+      <span class="step-title">Use Discover Sources to Verify</span>
+      <div class="step-content">
+        <p>Let's verify Gabriel's IMF statistic. Click "Discover Sources" and search:</p>
+
+        <pre>IMF report 2024 AI job displacement 40 percent</pre>
+
+        <p>NotebookLM will find web sources. Look for:</p>
+        <ul>
+          <li>The actual IMF report or official summary</li>
+          <li>Reputable news coverage of the report</li>
+          <li>Academic analysis of the findings</li>
+        </ul>
+
+        <p>Add 1-2 credible sources to your notebook.</p>
+      </div>
+    </div>
+
+    <div class="step-card">
+      <span class="step-number">7</span>
+      <span class="step-title">Ask Verification Questions</span>
+      <div class="step-content">
+        <p>Now that you have outside sources, ask verification questions:</p>
+
+        <pre>Does the IMF report actually say 40% of jobs are "exposed" to AI? What does "exposed" mean in this context?</pre>
+
+        <p>You might discover that "exposed" doesn't mean "will be eliminated" — it might mean "will be affected in some way." This nuance could be part of your response.</p>
+
+        <pre>What counterarguments exist to Gabriel's Consumption Paradox thesis?</pre>
+
+        <p>NotebookLM will search your sources for opposing views — or note if your sources don't address this, which tells you where to look next.</p>
+      </div>
+    </div>
+
+    <div class="step-card">
+      <span class="step-number">8</span>
+      <span class="step-title">Find Counterevidence</span>
+      <div class="step-content">
+        <p>Use Discover Sources to find perspectives that challenge Gabriel's thesis:</p>
+
+        <pre>economic growth AI productivity historical technology unemployment</pre>
+
+        <p>You might find sources arguing that previous technological revolutions (industrial, digital) also caused displacement but ultimately created more jobs. Add 1-2 quality counterargument sources.</p>
+      </div>
+    </div>
+
+    <div class="step-card">
+      <span class="step-number">9</span>
+      <span class="step-title">Formulate Your Position</span>
+      <div class="step-content">
+        <p>Based on your research, you might take several positions:</p>
+
+        <ul>
+          <li><strong>Agree and extend:</strong> Gabriel's right about the Consumption Paradox, and here's additional evidence</li>
+          <li><strong>Partially agree:</strong> The concern is valid, but "exposed" doesn't mean "eliminated"</li>
+          <li><strong>Challenge:</strong> Historical evidence suggests technological unemployment concerns are typically overstated</li>
+        </ul>
+
+        <p>Ask NotebookLM to help you articulate your position:</p>
+
+        <pre>Based on my sources, what's the strongest argument that Gabriel's timeline is too pessimistic?</pre>
+      </div>
+    </div>
+
+    <div class="step-card">
+      <span class="step-number">10</span>
+      <span class="step-title">Save Your Research Trail</span>
+      <div class="step-content">
+        <p>Save your most useful NotebookLM responses as Notes:</p>
+        <ul>
+          <li>"Gabriel's Main Claims"</li>
+          <li>"IMF Statistic Verification"</li>
+          <li>"Counterarguments from Sources"</li>
+          <li>"My Thesis Development"</li>
+        </ul>
+        <p>These notes become your research trail — evidence of your thinking process.</p>
+      </div>
+    </div>
+
+    <h2>What You've Built</h2>
+
+    <p>After this workflow, you have:</p>
+
+    <ul class="checklist">
+      <li>Gabriel's argument broken down into testable claims</li>
+      <li>His sources identified and (partially) verified</li>
+      <li>Outside sources that support or challenge his thesis</li>
+      <li>A clear understanding of where you agree and disagree</li>
+      <li>A research trail you can cite in your response</li>
+    </ul>
+
+    <h2>Sample Response Opening</h2>
+
+    <p>Here's how your response might begin, drawing on this research:</p>
+
+    <blockquote>
+      In "The Silicon Mirage," Gabriel Bell makes a compelling case for what he calls the "Consumption Paradox" — the idea that AI will eliminate the wages people need to buy the goods AI produces. He cites an IMF report claiming 40% of jobs are "exposed" to AI, a figure that initially sounds alarming.<br><br>
+      But "exposure" isn't extinction. The same IMF report notes that many of these jobs will be "complemented" rather than replaced by AI. The statistic Gabriel uses is accurate, but his interpretation may be premature...
+    </blockquote>
+
+    <p>Notice how this response:</p>
+    <ul>
+      <li>Summarizes Gabriel's argument fairly</li>
+      <li>Engages with his specific evidence</li>
+      <li>Offers a nuanced counterpoint based on the same source</li>
+      <li>Sets up the writer's own thesis</li>
+    </ul>
+
+    <h2>Key Takeaways</h2>
+
+    <div class="callout insight">
+      <p><strong>NotebookLM's value:</strong> It forces you to engage with actual sources rather than remembered impressions. When Gabriel says "40% of jobs," you can check what that really means before responding.</p>
+    </div>
+
+    <p>This is what source-grounded research looks like — not accepting claims at face value, but tracing them back to their origins and testing them against other evidence.</p>
+
+    <!-- DIVIDER -->
+    <div class="divider"></div>
+
+    <!-- PAGE NAVIGATION -->
+    <nav class="page-nav">
+      <a href="combined-workflow.html" class="prev">Combined Workflow</a>
+      <a href="example-gems.html" class="next">Example: Gems</a>
+    </nav>
+
+    <!-- BOTTOM SITE NAVIGATION -->
+    <nav class="site-nav-bottom">
+      <h3>All Pages</h3>
+      <ul>
+        <li><a href="index.html">Start Here</a></li>
+        <li><a href="tool-chooser.html">Choose a Tool</a></li>
+        <li><a href="notebooklm-workflow.html">NotebookLM Workflow</a></li>
+        <li><a href="gems-workflow.html">Gems Workflow</a></li>
+        <li><a href="combined-workflow.html">Combined Workflow</a></li>
+        <li><a href="example-notebooklm.html" class="current">Example: NotebookLM</a></li>
+        <li><a href="example-gems.html">Example: Gems</a></li>
+        <li><a href="example-combined.html">Example: Combined</a></li>
+        <li><a href="templates.html">Templates</a></li>
+        <li><a href="verification.html">Verification</a></li>
+        <li><a href="glossary.html">Glossary</a></li>
+        <li><a href="troubleshooting.html">Troubleshooting</a></li>
+      </ul>
+    </nav>
+
+  </main>
+
+  <footer>
+    <p>ENGL 170 — Spring 2026 — <a href="https://buildlittleworlds.github.io/engl170-spring2026-dashboard/">Dashboard</a> — <a href="https://buildlittleworlds.github.io/plate-composition-blog/">Dr. Plate's Blog</a></p>
+  </footer>
+
+</body>
+</html>
