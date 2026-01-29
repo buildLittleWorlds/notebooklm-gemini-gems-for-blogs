@@ -16,11 +16,12 @@ notebooklm-gemini-gems-for-blogs/
 ├── example-notebooklm.html    # Gabriel Bell walkthrough
 ├── example-gems.html          # Zay Amaro walkthrough
 ├── example-combined.html      # Eliana Nodari walkthrough
-├── templates.html             # Copy/paste prompts and checklists
+├── templates.html             # Copy/paste prompts, checklists, practice URLs
 ├── verification.html          # Fact-checking guide
 ├── glossary.html              # Key terms
 ├── troubleshooting.html       # Common problems
 ├── style.css                  # Shared styles
+├── copy-url.js                # Copy-to-clipboard functionality
 ├── _template.html             # Template for new pages
 └── README.md                  # This file
 ```
@@ -42,11 +43,13 @@ notebooklm-gemini-gems-for-blogs/
 
 ## Student Examples Featured
 
-| Student | Post | Used In |
-|---------|------|---------|
-| Gabriel Bell | "The Silicon Mirage" | NotebookLM Example |
-| Zay Amaro | "Markets, Metrics, and the Myth of Certainty" | Gems Example |
-| Eliana Nodari | "The Evolution of the Architect" | Combined Example |
+| Student | Post | Direct URL | Used In |
+|---------|------|------------|---------|
+| Gabriel Bell | "The Silicon Mirage" | https://gabriel-bell.github.io/the-silicon-mirage.html | NotebookLM Example |
+| Zay Amaro | "Markets, Metrics, and the Myth of Certainty" | https://zayamaro.github.io/markets-and-metrics.html | Gems Example |
+| Eliana Nodari | "The Evolution of the Architect" | https://eliananodari.github.io/evolution-of-the-architect.html | Combined Example |
+
+Each example page includes clickable links and copy-to-clipboard URLs so students can paste directly into NotebookLM as sources. The templates page also has a "Practice URLs" section with all three.
 
 ## Design
 
