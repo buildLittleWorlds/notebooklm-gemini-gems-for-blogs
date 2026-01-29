@@ -526,6 +526,83 @@ footer a {
   color: var(--muted-teal);
 }
 
+/* URL Box for copyable student post links */
+.post-link-group {
+  margin-top: 1em;
+  padding-top: 1em;
+  border-top: 1px solid var(--aged-paper);
+}
+
+.post-link-group .direct-link {
+  display: inline-block;
+  background: var(--deep-ink);
+  color: var(--warm-cream);
+  padding: 0.5em 1em;
+  border-radius: 6px;
+  text-decoration: none;
+  font-size: 0.95em;
+  margin-bottom: 0.75em;
+}
+
+.post-link-group .direct-link:hover {
+  background: var(--ink-medium);
+  text-decoration: none;
+}
+
+.url-box {
+  display: flex;
+  align-items: center;
+  gap: 0.75em;
+  background: var(--warm-cream);
+  border: 1px solid #D4C5B0;
+  border-radius: 6px;
+  padding: 0.5em 0.75em;
+  margin-bottom: 0.5em;
+}
+
+.url-box .url-text {
+  font-family: 'Courier New', monospace;
+  font-size: 0.85em;
+  color: var(--deep-ink);
+  word-break: break-all;
+  flex: 1;
+}
+
+.url-box .copy-btn {
+  position: static;
+  flex-shrink: 0;
+}
+
+.url-hint {
+  font-size: 0.85em;
+  color: var(--ink-medium);
+  margin: 0;
+}
+
+/* Practice URLs Section */
+.practice-url-item {
+  margin-bottom: 1.5em;
+  padding-bottom: 1.5em;
+  border-bottom: 1px solid var(--aged-paper);
+}
+
+.practice-url-item:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.practice-url-item h4 {
+  margin: 0 0 0.5em 0;
+  color: var(--deep-ink);
+  font-size: 1em;
+}
+
+.practice-url-item .example-link {
+  font-size: 0.9em;
+  margin-top: 0.5em;
+}
+
 /* Responsive */
 @media (max-width: 600px) {
   body {
